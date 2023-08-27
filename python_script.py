@@ -32,6 +32,6 @@ def get_expired_burses(site_url):
             })
     return burslar
 
-expired_burses = get_expired_burses("https://www.example.com/burslar")
+expired_burses = get_expired_burses("https://www.bursumcepte.com/")
 for burs in expired_burses:
     print(burs)
